@@ -278,6 +278,44 @@
         }
       }
     },
+    "/api/CheckoutForm/managed": {
+      "get": {
+        "tags": [
+          "CheckoutForm"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ViewOrder"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ViewOrder"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ViewOrder"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/Orders": {
       "get": {
         "tags": [
@@ -1134,6 +1172,10 @@
             "type": "string",
             "nullable": true
           },
+          "orderId": {
+            "type": "integer",
+            "format": "int32"
+          },
           "cardInfo": {
             "$ref": "#/components/schemas/CardInfo"
           }
@@ -1321,6 +1363,48 @@
           "passwordHash": {
             "type": "string",
             "format": "byte",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ViewOrder": {
+        "type": "object",
+        "properties": {
+          "checkoutFormId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "orderId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "orderDto": {
+            "$ref": "#/components/schemas/OrderDto"
+          },
+          "customerName": {
+            "type": "string",
+            "nullable": true
+          },
+          "customerEmail": {
+            "type": "string",
+            "nullable": true
+          },
+          "customerPhone": {
+            "type": "string",
+            "nullable": true
+          },
+          "customerLocation": {
+            "type": "string",
+            "nullable": true
+          },
+          "price": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "paymentMethod": {
+            "type": "string",
             "nullable": true
           }
         },

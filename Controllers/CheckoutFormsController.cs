@@ -1,9 +1,10 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+using ProductTask.Dto;
 using ProductTask.Model;
 using ProductTask.Repository;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace ProductTask.Controllers
 {
@@ -84,6 +85,18 @@ namespace ProductTask.Controllers
 
             // No card info required for other payment methods
             return null;
+        }
+        [HttpGet("managed")]
+        public async Task<ActionResult<List<ViewOrder>>> GetManagedOrders()
+        {
+            var result = await _repository.ManageOrderAsync();
+
+            if (result == null || result.Count == 0)
+            {
+                return NotFound("No managed orders found.");
+            }
+
+            return Ok(result);
         }
     }
 }

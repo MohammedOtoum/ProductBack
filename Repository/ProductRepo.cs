@@ -70,10 +70,10 @@ namespace ProductTask.Repository
                     CategoryId = p.CategoryId,
                 }).ToList();
 
-            if (products == null || products.Count == 0)
-            {
-                throw new Exception("No matching products found");
-            }
+            //if (products == null || products.Count == 0)
+            //{
+            //    //throw new Exception("No matching products found");
+            //}
 
             return products;
         }

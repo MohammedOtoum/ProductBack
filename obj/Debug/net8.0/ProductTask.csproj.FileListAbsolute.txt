@@ -282,3 +282,4 @@ C:\Users\USER\Task\ProductTask\obj\Debug\net8.0\ProductTask.pdb
 C:\Users\USER\Task\ProductTask\obj\Debug\net8.0\ProductTask.genruntimeconfig.cache
 C:\Users\USER\Task\ProductTask\obj\Debug\net8.0\ref\ProductTask.dll
 C:\Users\USER\Task\ProductTask\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\USER\Task\ProductTask\obj\Debug\net8.0\ProductTask.sourcelink.json

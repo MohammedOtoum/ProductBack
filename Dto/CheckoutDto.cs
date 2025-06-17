@@ -1,11 +1,9 @@
-﻿// Models/CheckoutForm.cs
-using System.ComponentModel.DataAnnotations;
+﻿using ProductTask.Model;
 
-namespace ProductTask.Model
+namespace ProductTask.Dto
 {
-    public class CheckoutForm
+    public class CheckoutDto
     {
-        public int Id { get; set; }
         public string? FullName { get; set; }
         public string? PhoneNumber { get; set; }
         public string? Email { get; set; }
@@ -22,13 +20,4 @@ namespace ProductTask.Model
         // Make this nullable:
         public CardInfo? CardInfo { get; set; }
     }
-
-    public class CardInfo
-    {
-        public string? CardHolderName { get; set; }
-        public string? CardNumber { get; set; }
-        public string? ExpirationDate { get; set; }
-        public string? CVV { get; set; }
-    }
-
 }
