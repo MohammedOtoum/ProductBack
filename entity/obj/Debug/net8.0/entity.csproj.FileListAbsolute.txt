@@ -1,0 +1,7 @@
+C:\Users\USER\Task\entity\obj\Debug\net8.0\entity.csproj.AssemblyReference.cache
+C:\Users\USER\Task\entity\obj\Debug\net8.0\entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Task\entity\obj\Debug\net8.0\entity.AssemblyInfoInputs.cache
+C:\Users\USER\Task\entity\obj\Debug\net8.0\entity.AssemblyInfo.cs
+C:\Users\USER\Task\entity\obj\Debug\net8.0\entity.csproj.CoreCompileInputs.cache
+C:\Users\USER\Task\entity\obj\Debug\net8.0\entity.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\USER\Task\entity\obj\Debug\net8.0\entity.MvcApplicationPartsAssemblyInfo.cache

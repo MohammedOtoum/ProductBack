@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USER\\Task\\entity\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B8881D8C-F2AC-4FEE-B947-44DBE74211A9}|entity.csproj|c:\\users\\user\\task\\entity\\data\\entityframework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8881D8C-F2AC-4FEE-B947-44DBE74211A9}|entity.csproj|solutionrelative:data\\entityframework.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8881D8C-F2AC-4FEE-B947-44DBE74211A9}|entity.csproj|c:\\users\\user\\task\\entity\\model\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8881D8C-F2AC-4FEE-B947-44DBE74211A9}|entity.csproj|solutionrelative:model\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8881D8C-F2AC-4FEE-B947-44DBE74211A9}|entity.csproj|c:\\users\\user\\task\\entity\\model\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8881D8C-F2AC-4FEE-B947-44DBE74211A9}|entity.csproj|solutionrelative:model\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Post.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Task\\entity\\Model\\Post.cs",
+              "RelativeDocumentMoniker": "Model\\Post.cs",
+              "ToolTip": "C:\\Users\\USER\\Task\\entity\\Model\\Post.cs",
+              "RelativeToolTip": "Model\\Post.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T12:09:01.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Blog.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Task\\entity\\Model\\Blog.cs",
+              "RelativeDocumentMoniker": "Model\\Blog.cs",
+              "ToolTip": "C:\\Users\\USER\\Task\\entity\\Model\\Blog.cs",
+              "RelativeToolTip": "Model\\Blog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T12:08:49.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EntityFrameWork.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Task\\entity\\Data\\EntityFrameWork.cs",
+              "RelativeDocumentMoniker": "Data\\EntityFrameWork.cs",
+              "ToolTip": "C:\\Users\\USER\\Task\\entity\\Data\\EntityFrameWork.cs",
+              "RelativeToolTip": "Data\\EntityFrameWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T12:06:05.422Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
